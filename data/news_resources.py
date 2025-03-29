@@ -4,6 +4,7 @@ from flask_restful import Resource, abort, reqparse
 from data import db_session
 from data.news import News
 
+# some
 
 def abort_if_news_not_found(news_id):
     session = db_session.create_session()
